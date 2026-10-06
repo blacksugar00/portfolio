@@ -5,8 +5,10 @@ import Presentation from './Presentation';
 function App() {
     return(
     <>
-    <Header/>
-    <Presentation/>
+     <div className="flex-col flex gap-7">
+        <Header />
+        <Presentation />
+      </div>
     </>
     );
 }

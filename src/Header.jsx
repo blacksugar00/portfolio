@@ -5,7 +5,7 @@ import linkeedin_logo from "./assets/linkedin_logo.png"
 
 function Header(){
     return (
-    <div className="fixed top-0 inset-x-0 z-50"> 
+    <div className=""> 
         <div className="  flex justify-around items-center  bg-[rgb(24,26,27)] text-white h-[4.5vh] border-b border-b-gray-600 " >
             <div>
 
