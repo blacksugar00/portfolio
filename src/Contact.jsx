@@ -5,7 +5,7 @@ import InfoItem from './InfoItem';
 import SocialLink from './SocialLink';
 function Contact() {
   return (
-    <section className="w-full py-16 px-4 bg-gray-50">
+    <section id='contact' className="w-full py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
 
         {/*  Carte principale sombre  */}

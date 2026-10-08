@@ -39,7 +39,7 @@ function Competences() {
   ];
 
   return (
-    <section className="w-full py-16 px-4 bg-gray-50">
+    <section id="competences" className="w-full py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto flex flex-col gap-10">
 
         {/* ═══ En-tête de section ═══ */}

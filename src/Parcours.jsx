@@ -11,7 +11,7 @@ const mainText4="Communication fluide avec designers, ingénieurs et parties pre
 
 function Parcours() {
   return (
-    <section className="w-full py-16 px-4 bg-gray-50 ">
+    <section id="a-propos" className="w-full py-16 px-4 bg-gray-50 ">
 
       
       <div className="max-w-7xl mx-auto">

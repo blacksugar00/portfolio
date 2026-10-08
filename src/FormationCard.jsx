@@ -1,6 +1,6 @@
 function FormationCard({ Icon, diplome, ecole, statut }) {
   return (
-    <div className="flex items-center gap-5 bg-white border border-orange-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow">
+    <div id="formation" className="flex items-center gap-5 bg-white border border-orange-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow">
 
       {/* Icône */}
       <div className="w-14 h-14 rounded-xl bg-orange-200 flex items-center justify-center flex-shrink-0">

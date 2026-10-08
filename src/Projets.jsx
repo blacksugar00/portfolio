@@ -34,10 +34,10 @@ function Projets() {
   ];
 
   return (
-    <section className="w-full py-16 px-4 bg-gray-50">
+    <section id="projet" className="w-full py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto flex flex-col gap-10">
 
-        {/* ═══ En-tête ═══ */}
+        {/* En-tête */}
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-orange-500" />
@@ -57,7 +57,7 @@ function Projets() {
           </div>
         </div>
 
-        {/* ═══ Grille de projets ═══ */}
+        {/* Grille de projets  */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projets.map((projet, i) => (
             <ProjetCard key={i} {...projet} />

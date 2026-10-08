@@ -7,21 +7,22 @@ import Formation from './Formation';
 import Experiences from './Experiences';
 import Projets from './Projets';
 import Contact from './Contact';
+import Reveal from './Reveal';
+
 function App() {
-    return(
+  return (
     <>
-     <div className="">
-        <Header />
-        <Presentation />
-        <Parcours />
-        <Competences/>
-        <Formation/>
-        <Experiences/>
-        <Projets/>
-        <Contact/>
-      </div>
+      <Header />
+      <Presentation />
+
+      <Reveal><Parcours /></Reveal>
+      <Reveal><Competences /></Reveal>
+      <Reveal><Formation id="formation"/></Reveal>
+      <Reveal><Experiences /></Reveal>
+      <Reveal><Projets /></Reveal>
+      <Reveal><Contact /></Reveal>
     </>
-    );
+  );
 }
 
 export default App
