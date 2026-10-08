@@ -1,5 +1,6 @@
 import github_logo from "./assets/github.svg"
 import linkeedin_logo from "./assets/linkedin_logo.png"
+import { MapPin } from 'lucide-react';
 
 
 
@@ -14,7 +15,10 @@ function Header(){
             <div>
                 <ul className=" flex gap-4">
                     <li></li>
-                    <li>Yaounde, Cameroun </li>
+                    <li><div className="flex items-center gap-1.5  flex-shrink-0">
+                        <MapPin size={16} className="text-orange-500" />
+                        <span className="text-sm">Yaounde, Cameroun</span>
+        </div> </li>
                     <li className="text-gray-500">|</li>
                     <li className=" duration-200 hover:text-[rgb(238,120,38)]"><a href="#">kouchengameniarron@gmail.com</a></li>
                     <li className="text-gray-500">|</li>

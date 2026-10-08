@@ -8,6 +8,7 @@ import Experiences from './Experiences';
 import Projets from './Projets';
 import Contact from './Contact';
 import Reveal from './Reveal';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Reveal><Experiences /></Reveal>
       <Reveal><Projets /></Reveal>
       <Reveal><Contact /></Reveal>
+      <Reveal><Footer/></Reveal>
     </>
   );
 }
