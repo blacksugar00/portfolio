@@ -3,7 +3,7 @@ function ExperienceCard({ poste, entreprise, lieu, missions }) {
   return (
     <div className="bg-white border border-orange-100 rounded-2xl shadow-sm p-7 hover:shadow-md transition-shadow">
 
-      {/*  En-tête : poste + lieu  */}
+      {/*  En-tête */}
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
 
         <div className="flex items-start gap-3">

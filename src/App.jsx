@@ -6,6 +6,7 @@ import Competences from './Competences';
 import Formation from './Formation';
 import Experiences from './Experiences';
 import Projets from './Projets';
+import Contact from './Contact';
 function App() {
     return(
     <>
@@ -17,6 +18,7 @@ function App() {
         <Formation/>
         <Experiences/>
         <Projets/>
+        <Contact/>
       </div>
     </>
     );
