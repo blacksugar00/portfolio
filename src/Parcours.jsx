@@ -20,10 +20,13 @@ function Parcours() {
         <div className="flex flex-col gap-8">
 
           
-          <h2 className="text-xl font-bold text-left text-[rgb(247,109,11)]">
-            Profil & Vocation
-          </h2>
+          <div className="flex items-center gap-3">
+            <div className="w-1 h-6 bg-orange-500 rounded-full" />
+            <span className="text-sm font-semibold uppercase tracking-wider text-orange-500">
+              Profil & Vocation
 
+            </span>
+          </div>
           
           <div className="flex justify-between">
             <div className="text-3xl font-extrabold">À propos de mon parcours</div>
@@ -48,6 +51,9 @@ function Parcours() {
 
         </div>
       </div>
+      <div className="h-[5vh] border-b-[0.3px] w-full ">
+        
+        </div>
     </section>
   );
 }
