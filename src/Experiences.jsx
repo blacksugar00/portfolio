@@ -39,6 +39,9 @@ function Experiences() {
         </div>
 
       </div>
+      <div className="h-[5vh] border-b-[0.3px] w-full ">
+        
+        </div>
     </section>
   );
 }

@@ -5,6 +5,7 @@ import Parcours from './Parcours';
 import Competences from './Competences';
 import Formation from './Formation';
 import Experiences from './Experiences';
+import Projets from './Projets';
 function App() {
     return(
     <>
@@ -15,6 +16,7 @@ function App() {
         <Competences/>
         <Formation/>
         <Experiences/>
+        <Projets/>
       </div>
     </>
     );
