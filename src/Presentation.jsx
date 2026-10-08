@@ -3,7 +3,7 @@ import monImage from './assets/github.svg';
 function Presentation() {
   return (
     <>
-      <div className="flex justify-around  mb-20 ">
+      <div className="flex justify-around  mb-20 mt-[90px] ">
         <div className="flex gap-10 justify-around items-start  ">
           <div className="flex flex-col gap-5">
             <div className=" border border-amber-400 w-[500px] rounded-md shadow-md">

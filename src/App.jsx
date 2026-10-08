@@ -1,13 +1,16 @@
 import Header from './Header'
 import './App.css'
 import Presentation from './Presentation';
-
+import Parcours from './Parcours';
+import Competences from './Competences';
 function App() {
     return(
     <>
-     <div className="flex-col flex gap-7">
+     <div className="">
         <Header />
         <Presentation />
+        <Parcours />
+        <Competences/>
       </div>
     </>
     );
