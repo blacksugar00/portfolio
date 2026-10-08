@@ -3,6 +3,8 @@ import './App.css'
 import Presentation from './Presentation';
 import Parcours from './Parcours';
 import Competences from './Competences';
+import Formation from './Formation';
+import Experiences from './Experiences';
 function App() {
     return(
     <>
@@ -11,6 +13,8 @@ function App() {
         <Presentation />
         <Parcours />
         <Competences/>
+        <Formation/>
+        <Experiences/>
       </div>
     </>
     );
