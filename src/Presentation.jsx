@@ -1,54 +1,69 @@
 import photo from "./assets/photo.jpeg";
 import githubIcon from './assets/github.svg';
-import linkedinIcon from './assets/linkedin.svg'; 
+import linkedinIcon from './assets/linkedin.svg';
 
 function Presentation() {
   return (
     <>
-      <div id="acceuil" className="flex justify-around mb-20 mt-[190px]">
-        <div className="flex gap-10 justify-around items-start">
-          <div className="flex flex-col gap-5">
-            <div className="border border-amber-400 w-[500px] rounded-md shadow-md">
+      <section
+        id="acceuil"
+        className="w-full max-w-7xl mx-auto px-4 lg:px-6
+                   mt-[100px] lg:mt-[140px] mb-20"
+      >
+        <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-16 items-center lg:items-start">
+
+          <div className="flex flex-col gap-5 w-full lg:flex-1">
+
+            <div className="border border-amber-400 rounded-md shadow-md px-4 py-2 text-sm lg:text-base w-full lg:w-fit">
               Yaoundé, Cameroun • École Nationale Supérieure Polytechnique
             </div>
-            <div className="text-amber-700">
-              {" "}
-              PORTFOLIO D'INGENIERIE LOGICIEL &I A
+
+            <div className="text-amber-700 text-sm lg:text-base font-semibold tracking-wide">
+              PORTFOLIO D'INGENIERIE LOGICIEL & IA
             </div>
-            <h1 className="text-5xl font-extrabold w-[40vh]">
+
+            <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight">
               Arron KOUCHE NGAMENI
             </h1>
-            <div className="text-[rgb(247,109,11)] text-[20px] w-80">
+
+            <div className="text-[rgb(247,109,11)] text-lg lg:text-xl font-medium max-w-md">
               Étudiant en Génie Informatique & Futur Ingénieur en Machine
               Learning et Intelligence Artificielle
             </div>
-            <div className="italic border border-l-[4px] pl-[25px] border-l-orange-600 border-t-orange-600 border-b-orange-600 border-r-orange-600 rounded-md shadow-lg bg-white w-[75vh] text-xl">
+
+            <div className="italic border-l-4 border-l-orange-600 rounded-md shadow-lg bg-white
+                            pl-5 pr-4 py-4 text-base lg:text-xl max-w-xl">
               « Contribuer activement au développement et à l'essor du Machine
               Learning et de l'Intelligence Artificielle en Afrique et
               particulièrement au Cameroun, à travers des solutions logicielles
               et algorithmiques rigoureuses. »
             </div>
 
-            <ul className="flex gap-5 items-center">
-              <li>
-                <button className="cursor-pointer text-white bg-[rgb(238,120,38)] h-[50px] w-[190px] rounded-xl shadow-md duration-200 hover:-translate-y-1">
-                  voir mes competences
+            <ul className="flex flex-wrap gap-4 items-center mt-2">
+
+              <li className="w-full sm:w-auto">
+                <button className="w-full sm:w-[190px] cursor-pointer text-white bg-[rgb(238,120,38)]
+                                   h-[50px] rounded-xl shadow-md duration-200 hover:-translate-y-1 text-sm lg:text-base">
+                  Voir mes compétences
                 </button>
               </li>
-              <li>
-                <button className="cursor-pointer bg-gray-100 h-[50px] w-[190px] rounded-xl border-[0.8px] border-[rgb(238,120,38)] shadow-md duration-200 hover:-translate-y-1">
+
+              <li className="w-full sm:w-auto">
+                <button className="w-full sm:w-[190px] cursor-pointer bg-gray-100 h-[50px] rounded-xl
+                                   border-[0.8px] border-[rgb(238,120,38)] shadow-md duration-200
+                                   hover:-translate-y-1 text-sm lg:text-base">
                   Me contacter
                 </button>
               </li>
 
-              {/*  GitHub  */}
               <li>
                 <a
                   href="https://github.com/blacksugar00"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
-                  className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-100 hover:bg-[rgb(238,120,38)] transition-colors duration-200 group"
+                  className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-100
+                             hover:bg-[rgb(238,120,38)] transition-colors duration-200 group"
                 >
                   <img
                     src={githubIcon}
@@ -57,15 +72,14 @@ function Presentation() {
                   />
                 </a>
               </li>
-
-              {/*  LinkedIn  */}
               <li>
                 <a
                   href="https://linkedin.com/in/arron"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
-                  className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-100 hover:bg-[rgb(238,120,38)] transition-colors duration-200 group"
+                  className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-100
+                             hover:bg-[rgb(238,120,38)] transition-colors duration-200 group"
                 >
                   <img
                     src={linkedinIcon}
@@ -74,19 +88,24 @@ function Presentation() {
                   />
                 </a>
               </li>
+
             </ul>
+
           </div>
 
-          <div className="mb-0">
+          <div className="flex-shrink-0">
             <img
               src={photo}
-              alt="photo"
-              className="h-[500px] rounded-xl"
+              alt="Arron Kouche"
+              className="w-[280px] sm:w-[350px] lg:w-auto h-auto lg:h-[500px]
+                         object-cover object-center rounded-xl shadow-lg"
             />
           </div>
-        </div>
-      </div>
 
+        </div>
+      </section>
+
+      {/* Séparateur */}
       <div className="h-[5vh] border-b-[0.3px] w-full"></div>
     </>
   );

@@ -2,7 +2,7 @@ function SkillCard({ Icon, title, skills = [] }) {
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 w-full max-w-xs">
 
-      
+      {/* En-tête */}
       <div className="flex items-center gap-3 mb-3">
         <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
           {Icon && <Icon size={20} className="text-orange-500" />}
@@ -12,7 +12,7 @@ function SkillCard({ Icon, title, skills = [] }) {
 
       <div className="border-t border-gray-200 mb-3" />
 
-      
+      {/* Compétences */}
       <div className="flex flex-col gap-3">
         {skills.map((skill) => {
           const pct = Math.min(100, Math.max(0, skill.niveau));
