@@ -32,7 +32,6 @@ function SkillCard({ Icon, title, skills = [] }) {
           );
         })}
       </div>
-
     </div>
   );
 }

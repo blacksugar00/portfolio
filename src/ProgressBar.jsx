@@ -1,6 +1,5 @@
 function ProgressBar({ value = 0, label }) {
   const pourcentage = Math.min(100, Math.max(0, value));
-
   return (
     <div className="w-full">
       <div className="flex justify-between items-center mb-2">

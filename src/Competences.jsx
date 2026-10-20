@@ -42,7 +42,7 @@ function Competences() {
     <section id="competences" className="w-full py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto flex flex-col gap-10">
 
-        {/* ═══ En-tête de section ═══ */}
+        {/*  En-tête de section */}
         <div className="flex flex-col gap-4">
 
           <div className="flex items-center gap-3">
@@ -64,7 +64,7 @@ function Competences() {
 
         </div>
 
-        {/* ═══ Grille de cartes ═══ */}
+        {/* Grille de cartes */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {categories.map((cat) => (
             <SkillCard

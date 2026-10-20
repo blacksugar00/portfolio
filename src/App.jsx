@@ -15,7 +15,6 @@ function App() {
     <>
       <Header />
       <Presentation />
-
       <Reveal><Parcours /></Reveal>
       <Reveal><Competences /></Reveal>
       <Reveal><Formation id="formation"/></Reveal>

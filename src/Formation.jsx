@@ -10,11 +10,9 @@ function Formation() {
       statut: "Formation en cours",
     },
   ];
-
   return (
     <section id="formation" className="w-full py-12 md:py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto flex flex-col gap-8 md:gap-10">
-
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-3">
             <div className="w-1 h-6 bg-orange-500 rounded-full" />
@@ -32,9 +30,7 @@ function Formation() {
             <FormationCard key={i} {...f} />
           ))}
         </div>
-
       </div>
-
       <div className="h-[5vh] border-b-[0.3px] w-full mt-10"></div>
     </section>
   );

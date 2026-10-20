@@ -4,7 +4,7 @@ function Projets() {
     {
       categorie: "Machine Learning",
       couleur: "orange",
-      annee: 2024,
+      annee: 2026,
       titre: "Système d'Analyse Prédictive & Dashboard ML",
       description: "Architecture d'exploration de données et prédiction avec API REST et interface réactive. Pipelines de prétraitement et métriques de validation en temps réel.",
       technologies: ["Python", "Django", "Scikit-Learn", "React", "PostgreSQL"],
@@ -14,7 +14,7 @@ function Projets() {
     {
       categorie: "Desktop Software",
       couleur: "blue",
-      annee: 2024,
+      annee: 2026,
       titre: "Application Desktop de Supervision d'une ecole",
       description: "Application logicielle Desktop à haute performance pour la visualisation ,le monitoring, la gestion de flux de données dans une ecole.",
       technologies: ["C++", "Qt Creator", "QCustomPlot", "Multi-threading"],
@@ -24,7 +24,7 @@ function Projets() {
     {
       categorie: "Web Entreprise",
       couleur: "green",
-      annee: 2023,
+      annee: 2026,
       titre: "Plateforme  de e-learning",
       description: "Système web sécurisé, permettant de vendre et d'acheter des cours par granularité, garantissant une flexibilite de l'apprentissage.",
       technologies: ["Java", "Spring Boot", "React", "MySQL"],

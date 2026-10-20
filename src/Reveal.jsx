@@ -2,7 +2,6 @@ import { useReveal } from './hooks/useReveal';
 
 function Reveal({ children, delay = 0, className = '' }) {
   const ref = useReveal();
-
   return (
     <div
       ref={ref}
